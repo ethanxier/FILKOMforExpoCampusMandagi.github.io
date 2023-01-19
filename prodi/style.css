@@ -133,7 +133,7 @@ body div.right div.content h2 {
     text-align: center;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgb(112, 112, 112, 0.4),rgba(0,0,0,0.2));
+    background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgba(237, 176, 76, 0.3),rgba(0,0,0,0.2));
 }
 
 body div.right div.content p {
@@ -166,6 +166,13 @@ body div.right div.content table * {
     line-height: 100%;
     border: 2px solid aliceblue;
     vertical-align: middle;
+}
+
+body div.right div.content img {
+    display: inline;
+    margin: 50px auto;
+    align-self: center;
+    width: 70%;
 }
 
 /* body * {
