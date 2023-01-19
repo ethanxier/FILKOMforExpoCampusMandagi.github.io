@@ -19,8 +19,9 @@ body {
 
 div.contain div.head {
     box-sizing: border-box;
-    height: 35%;
+    min-height: 35%;
     /* border: 2px solid red; */
+    height: fit-content;
     border-bottom: 5px solid silver;
     background-color: rgba(13, 20, 47, 0.96);
 }
