@@ -126,10 +126,14 @@ body div.right div.content {
 
 body div.right div.content h2 {
     display: block;
-    padding-top: 60px;
-    font-size: 40px;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgb(112, 112, 112, 0.4),rgba(0,0,0,0.2));
 }
 
 body div.right div.content p {
@@ -143,6 +147,25 @@ body div.right div.content p {
 
 body div.right div.content :last-child {
     margin-bottom: 120px;
+}
+
+body div.right div.content table {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+body div.right div.content :last-child {
+    margin-bottom: 120px;
+    /* border: 5px solid red; */
+}
+
+body div.right div.content table * {
+    color: aliceblue;
+    padding: 4px 7px;
+    line-height: 100%;
+    border: 2px solid aliceblue;
+    vertical-align: middle;
 }
 
 /* body * {
