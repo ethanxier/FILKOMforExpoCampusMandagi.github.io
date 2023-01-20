@@ -10,6 +10,22 @@ body {
     background-position: right 65;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #272727; 
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: rgb(188, 139, 60); 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(109, 81, 35); 
+  }
+
 .contain {
     box-sizing: border-box;
     height: 100%;
