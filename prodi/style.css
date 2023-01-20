@@ -49,6 +49,22 @@ body {
     background-position: 416 620;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #272727; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(188, 139, 60); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(109, 81, 35)#555; 
+  }
+
 body div.left {
     position: fixed;
     box-sizing: border-box;
